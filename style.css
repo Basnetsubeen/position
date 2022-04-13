@@ -1,0 +1,36 @@
+body {
+  font-size: 2rem;
+}
+/* positions : relative, absolute, relative, static, fixed{ */
+
+.parent {
+  background: yellow;
+  min-height: 200vh;
+  padding: 1rem;
+
+  position: relative;
+}
+
+.parent > div {
+  height: 150px;
+  padding: 1rem;
+}
+.child1 {
+  background: blanchedalmond;
+  position: sticky;
+  top: 0px;
+}
+.child2 {
+  background: rgb(172, 83, 135);
+  position: absolute;
+  /* top: 20px; */
+  right: 20px;
+  bottom: 10px;
+}
+.child3 {
+  background: rgb(61, 179, 106);
+}
+.sticky {
+  background: rgb(222, 220, 228);
+  /* position: fixed; */
+}
